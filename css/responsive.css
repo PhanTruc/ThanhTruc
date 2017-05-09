@@ -1,0 +1,92 @@
+/* responsive */
+.box_sp {
+	display: none;
+}
+.box_pc {
+	display: block;
+}
+
+/*responsive */
+
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (max-width: 768px) {
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner, .under .under_inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
+/*---*/
+.main_list li {
+	width: calc(70% / 4);
+}
+.port_list li {
+	width: calc((100% - 20px) / 2);
+	display: inline-block;
+	margin: 4px;
+	height: 300px;
+}
+.console-container {
+	font-size: 16px;
+}
+.main_list li span {
+	display: none;
+}
+}
+
+@media screen and (max-width: 640px) {
+.port_list li {
+	height: 250px;
+}
+#index_main .box_main {
+	width: 100%;
+}
+#index_main .box_main dl dt {
+	text-align: center;
+}
+#index_main .box_main dl, #index_main .box_main dl dt, #index_main .box_main dl dd {
+	display: block;
+	width: 100%;
+	padding:0;
+}
+.box_main dl dd li{
+	display:table;
+}
+
+#index_main .box_main dl dd span {
+    display: table-cell;
+}
+#index_cont01 .bubble01, #index_cont02 .bubble02 {
+	width: 100px;
+}
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 490px) {
+.port_list li {
+	width: 100%;
+	margin: 5px 0;
+}
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}
