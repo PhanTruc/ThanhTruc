@@ -449,7 +449,13 @@ body {
 }
 #index_cont02 {
 	width: 100%;
-	padding: 60px 0;
+	padding: 60px 0 10px;
+	background: #ffffff;
+	background: -moz-linear-gradient(-90deg, #ffffff 20%, #F7FCFF 80%);
+	background: -webkit-linear-gradient(-90deg, #ffffff 20%, #F7FCFF 80%);
+	background: -o-linear-gradient(-90deg, #ffffff 20%, #F7FCFF 80%);
+	background: -ms-linear-gradient(-90deg, #ffffff 20%, #F7FCFF 80%);
+	background: linear-gradient(-180deg, ffffff 20%, #F7FCFF 80%);
 }
 #index_cont02 .bubble02 {
 	float: right;
@@ -497,6 +503,27 @@ body {
 	width: 100%;
 	height: 150px;
 }
-
+.icon_girl {
+	position:relative;
+	bottom:0;
+	left:0;	
+	animation:icon_girl 20s linear infinite;
+}
+ @keyframes icon_girl {
+0% {
+ left:0;
+}
+100% {
+ left:100vw;
+}
+}
+ @-webkit-keyframes icon_girl {
+0% {
+ left:0;
+}
+100% {
+ left:100vw;
+}
+}
 /* index
 ------------------------------------------------------------------------*/
